@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arpita Mishra — Portfolio</title>
+
+<!-- ── PRIMARY META ── -->
+<meta name="title" content="Arpita Mishra — Portfolio">
+<meta name="description" content="Final-year B.Tech student in CS (AIML) at C.V. Raman Global University. Skilled in Python, ML, NLP, and data analytics. Open to internships and junior roles.">
+<meta name="keywords" content="Arpita Mishra, portfolio, software developer, machine learning, NLP, Python, data analytics, AIML, B.Tech, Odisha">
+<meta name="author" content="Arpita Mishra">
+<meta name="robots" content="index, follow">
+
+<!-- ── OPEN GRAPH (Facebook, LinkedIn, WhatsApp) ── -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://arps09.github.io/">
+<meta property="og:title" content="Arpita Mishra — CS Engineer & Aspiring Software Developer">
+<meta property="og:description" content="Final-year B.Tech student in CS (AIML) with a CGPA of 8.57. Projects in NLP, Computer Vision, and ML. Open to opportunities — Class of 2026.">
+<meta property="og:image" content="https://arps09.github.io/profile.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Arpita Mishra Portfolio">
+<meta property="og:locale" content="en_IN">
+
+<!-- ── TWITTER / X CARD ── -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://arps09.github.io/">
+<meta name="twitter:title" content="Arpita Mishra — CS Engineer & Aspiring Software Developer">
+<meta name="twitter:description" content="Final-year B.Tech student in CS (AIML) with a CGPA of 8.57. Projects in NLP, Computer Vision, and ML. Open to opportunities — Class of 2026.">
+<meta name="twitter:image" content="https://arps09.github.io/profile.jpg">
+
+<!-- ── THEME COLOR (browser chrome) ── -->
+<meta name="theme-color" content="#f5ede4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1209" media="(prefers-color-scheme: dark)">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+  <div class="loader-initials">AM</div>
+  <div class="loader-line"></div>
+  <p class="loader-sub">Arpita Mishra · Portfolio</p>
+</div>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="cursor-main" id="cursorMain"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<nav>
+  <span class="nav-name">AM</span>
+  <div class="nav-right">
+    <div class="morphic-nav" id="morphicNav">
+      <a href="#about"      class="morphic-link" data-section="about">About</a>
+      <a href="#projects"   class="morphic-link" data-section="projects">Projects</a>
+      <a href="#skills"     class="morphic-link" data-section="skills">Skills</a>
+      <a href="#education"  class="morphic-link" data-section="education">Education</a>
+      <a href="#contact"    class="morphic-link" data-section="contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">
+      <span class="theme-toggle-icon" id="themeIcon">
+        <!-- sun svg -->
+        <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
+        <!-- moon svg -->
+        <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </span>
+      <span class="theme-toggle-label" id="themeLabel">Light</span>
+    </button>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#skills" class="mobile-link">Skills</a>
+  <a href="#education" class="mobile-link">Education</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<div class="page-wrap">
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="inner">
+    <div class="hero-grid-accent"></div>
+    <div class="hero-grid-accent2"></div>
+    <div class="hero-layout">
+      <div class="hero-content">
+        <p class="hero-eyebrow">
+          <span class="avail-badge">
+            <span class="avail-dot"></span>Available
+          </span>
+          Open to opportunities · Class of 2026
+        </p>
+        <h1 class="hero-name" id="heroName"><span class="typing-cursor" id="typingCursor"></span></h1>
+        <p class="hero-role">Computer Science Engineer &amp; Aspiring Software Developer — passionate about data, systems, and building things that matter.</p>
+        <p class="hero-loc">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Cuttack, Odisha, India
+        </p>
+        <div class="hero-links">
+          <a href="#projects" class="btn btn-fill">View Projects ↗</a>
+          <a href="mailto:mishraarpita117@gmail.com" class="btn">Get in Touch</a>
+          <a href="Arpita Mishra Resume.pdf" download class="resume-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download CV</span>
+          </a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/arpita-mishra-415861253/" target="_blank" class="hero-social-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <span style="color:var(--line);font-size:16px">·</span>
+          <a href="https://github.com/Arps09" target="_blank" class="hero-social-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo" id="heroPhoto">
+          <img src="profile.jpg" alt="Arpita Mishra" onerror="this.parentElement.classList.add('no-photo')">
+          <span class="hero-photo-fallback">AM</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="inner">
+    <p class="section-label">About me</p>
+    <p class="about-text">
+      Final-year B.Tech student in <strong>Computer Science Engineering (AIML)</strong> at C.V. Raman Global University, graduating in 2026 with a CGPA of <strong>8.57</strong>.<br><br>
+      I have a strong foundation in programming, data analytics, and machine learning — built through real projects and hands-on exploration. A quick learner who thrives in <strong>collaborative teams</strong>, eager to build applications that are efficient, reliable, and scalable.
+    </p>
+    <div class="stats-row">
+      <div class="stat"><span class="stat-num" data-target="8.57" data-decimal="2">0</span><span class="stat-lbl">CGPA</span></div>
+      <div class="stat"><span class="stat-num" data-target="6" data-suffix="+">0</span><span class="stat-lbl">Projects built</span></div>
+      <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-lbl">Certifications</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="inner">
+    <p class="section-label">Projects</p>
+    <div class="projects-grid">
+      <div class="project-card project-flip-wrap" id="card4">
+        <div class="project-flip">
+          <div class="project-front">
+            <p class="project-tag">NLP · Deep Learning · Deployment</p>
+            <h3 class="project-title">Text Classification using DistilBERT</h3>
+            <p class="project-desc">Fine-tuned DistilBERT for sentiment analysis achieving 90% accuracy. Deployed as a live interactive web app via Streamlit.</p>
+            <div class="project-tech-row">
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> PyTorch</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Streamlit</span>
+            </div>
+            <p class="flip-hint">↻ Flip for details</p><button class="flip-btn" onclick="document.getElementById('card4').classList.add('flipped')">Details ↗</button>
+          </div>
+          <div class="project-back">
+            <span class="project-back-tag">NLP · Deep Learning · Deployment</span>
+            <p class="project-back-title">Text Classification using DistilBERT</p>
+            <p class="project-back-detail">→ Tokenized &amp; fine-tuned distilbert-base-uncased<br>→ Built end-to-end NLP pipeline with PyTorch<br>→ 90% accuracy · F1-Score 0.90 on test data<br>→ Deployed live sentiment tool on Streamlit</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+              <a href="https://github.com/Arps09/Text-classification-using-DistilBERT-model" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+              <a href="https://sentivibe.streamlit.app/" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Live Demo</a>
+              <a href="https://youtu.be/DlBC7CpucT8?si=FX40yK66UWbcFZme" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> YouTube</a>
+              <button class="flip-back-btn" onclick="document.getElementById('card4').classList.remove('flipped')">← Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card project-flip-wrap" id="card5">
+        <div class="project-flip">
+          <div class="project-front">
+            <p class="project-tag">Computer Vision · PyTorch · CNN</p>
+            <h3 class="project-title">CNN Image Classification — CIFAR-10</h3>
+            <p class="project-desc">End-to-end image classification pipeline using a custom CNN on CIFAR-10, achieving ~71% test accuracy with full unit testing.</p>
+            <div class="project-tech-row">
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> PyTorch</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> CNN</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Pytest</span>
+            </div>
+            <p class="flip-hint">↻ Flip for details</p><button class="flip-btn" onclick="document.getElementById('card5').classList.add('flipped')">Details ↗</button>
+          </div>
+          <div class="project-back">
+            <span class="project-back-tag">Computer Vision · PyTorch · CNN</span>
+            <p class="project-back-title">CNN Image Classification — CIFAR-10</p>
+            <p class="project-back-detail">→ Custom CNN with data augmentation on CIFAR-10<br>→ Training loop with loss tracking &amp; checkpointing<br>→ Single-image inference script included<br>→ Unit tested with pytest · ~71% test accuracy</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+              <a href="https://github.com/Arps09/cnn-cifar10-image-classification" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+              <button class="flip-back-btn" onclick="document.getElementById('card5').classList.remove('flipped')">← Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card project-flip-wrap" id="card6">
+        <div class="project-flip">
+          <div class="project-front">
+            <p class="project-tag">Generative AI · NLP · Prototyping</p>
+            <h3 class="project-title">AIVA — AI Virtual Assistant</h3>
+            <p class="project-desc">A GenAI Jupyter Notebook project exploring generative AI models, data preprocessing, and AI/ML prototyping in an experiment-friendly structure.</p>
+            <div class="project-tech-row">
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Jupyter</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> GenAI</span>
+            </div>
+            <p class="flip-hint">↻ Flip for details</p><button class="flip-btn" onclick="document.getElementById('card6').classList.add('flipped')">Details ↗</button>
+          </div>
+          <div class="project-back">
+            <span class="project-back-tag">Generative AI · NLP · Prototyping</span>
+            <p class="project-back-title">AIVA — AI Virtual Assistant</p>
+            <p class="project-back-detail">→ GenAI model prototyping &amp; experimentation<br>→ Data preprocessing &amp; analysis workflows<br>→ Notebook-based modular, extendable structure<br>→ Customizable for custom GenAI projects</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+              <a href="https://github.com/Arps09/AIVA-AI-Virtual-Assistant" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+              <button class="flip-back-btn" onclick="document.getElementById('card6').classList.remove('flipped')">← Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card project-flip-wrap" id="card1">
+        <div class="project-flip">
+          <div class="project-front">
+            <p class="project-tag">Machine Learning · Logistics</p>
+            <h3 class="project-title">ShipmentSure — Predicting On-Time Delivery</h3>
+            <p class="project-desc">Built a predictive model to analyze shipment delays using real-world logistics data.</p>
+            <div class="project-tech-row">
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Pandas</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Scikit-learn</span>
+            </div>
+            <p class="flip-hint">↻ Flip for details</p><button class="flip-btn" onclick="document.getElementById('card1').classList.add('flipped')">Details ↗</button>
+          </div>
+          <div class="project-back">
+            <span class="project-back-tag">Machine Learning · Logistics</span>
+            <p class="project-back-title">ShipmentSure — Predicting On-Time Delivery</p>
+            <p class="project-back-detail">→ Data preprocessing &amp; feature engineering<br>→ Exploratory data analysis on logistics data<br>→ Classification techniques for delivery prediction<br>→ Improved reliability of on-time delivery estimates</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+              <a href="https://github.com/Arps09/ShipmentSure-Predicting-On-Time-Delivery-Using-Supplier-Data" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> View on GitHub</a>
+              <button class="flip-back-btn" onclick="document.getElementById('card1').classList.remove('flipped')">← Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card project-flip-wrap" id="card2">
+        <div class="project-flip">
+          <div class="project-front">
+            <p class="project-tag">Computer Vision · Classification</p>
+            <h3 class="project-title">Fruit Detection and Color Analysis</h3>
+            <p class="project-desc">Developed a fruit classification system based on color features.</p>
+            <div class="project-tech-row">
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> OpenCV</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Scikit-learn</span>
+            </div>
+            <p class="flip-hint">↻ Flip for details</p><button class="flip-btn" onclick="document.getElementById('card2').classList.add('flipped')">Details ↗</button>
+          </div>
+          <div class="project-back">
+            <span class="project-back-tag">Computer Vision · Classification</span>
+            <p class="project-back-title">Fruit Detection and Color Analysis</p>
+            <p class="project-back-detail">→ Color-feature based classification system<br>→ Model evaluation using accuracy metrics<br>→ F1-score analysis for performance tuning<br>→ Reliable &amp; consistent classification results</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+              <a href="https://github.com/Arps09/Fruit-Colour-Classification-Using-Machine-Learning" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> View on GitHub</a>
+              <button class="flip-back-btn" onclick="document.getElementById('card2').classList.remove('flipped')">← Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card project-flip-wrap" id="card3">
+        <div class="project-flip">
+          <div class="project-front">
+            <p class="project-tag">Enterprise · Document Management</p>
+            <h3 class="project-title">Efficient Agreement Management</h3>
+            <p class="project-desc">Contributed to digitizing and organizing enterprise agreements.</p>
+            <div class="project-tech-row">
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Documentation</span>
+              <span class="project-tech-chip"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Workflow Mgmt</span>
+            </div>
+            <p class="flip-hint">↻ Flip for details</p><button class="flip-btn" onclick="document.getElementById('card3').classList.add('flipped')">Details ↗</button>
+          </div>
+          <div class="project-back">
+            <span class="project-back-tag">Enterprise · Document Management</span>
+            <p class="project-back-title">Efficient Agreement Management</p>
+            <p class="project-back-detail">→ Digitized &amp; organized enterprise agreements<br>→ Version tracking implementation<br>→ Alert-based document management<br>→ Streamlined enterprise workflows</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+              <a href="https://github.com/Arps09/Efficient-Agreement-Management" target="_blank" class="project-back-link"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> View on GitHub</a>
+              <button class="flip-back-btn" onclick="document.getElementById('card3').classList.remove('flipped')">← Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="inner">
+    <p class="section-label">Technical skills</p>
+    <div class="skills-grid">
+      <div>
+        <p class="skill-group-label">Programming</p>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">C++</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+      <div>
+        <p class="skill-group-label">Data &amp; Analytics</p>
+        <div class="skill-tags">
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">Excel</span>
+        </div>
+      </div>
+      <div>
+        <p class="skill-group-label">Machine Learning</p>
+        <div class="skill-tags">
+          <span class="tag">Classification</span>
+          <span class="tag">Feature Engineering</span>
+          <span class="tag">EDA</span>
+        </div>
+      </div>
+      <div>
+        <p class="skill-group-label">Core CS</p>
+        <div class="skill-tags">
+          <span class="tag">OOP</span>
+          <span class="tag">Arrays &amp; Strings</span>
+          <span class="tag">Data Structures</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:56px">
+      <p class="section-label">Achievements</p>
+      <div class="achievement-row">
+        <div class="achievement-item">
+          <span class="ach-icon">🏆</span>
+          <span class="ach-text">Finalist — National Innothon 2025, IIIT Bhubaneswar</span>
+        </div>
+        <div class="achievement-item">
+          <span class="ach-icon">🏆</span>
+          <span class="ach-text">Finalist — Hack Fest Advaita 2025, IIIT Bhubaneswar</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="inner">
+    <p class="section-label">Education</p>
+    <div class="edu-timeline">
+      <div class="edu-item">
+        <span class="edu-year">2022 – 2026</span>
+        <div>
+          <p class="edu-degree">B.Tech — Computer Science Engineering (AIML)</p>
+          <p class="edu-school">C.V. Raman Global University, Bhubaneswar</p>
+          <p class="edu-detail">CGPA: 8.57</p>
+        </div>
+      </div>
+      <div class="edu-item">
+        <span class="edu-year">Higher Secondary</span>
+        <div>
+          <p class="edu-degree">Science</p>
+          <p class="edu-school">Jatiya Kabi Bira Kishor Das (JKBK) Government College, Cuttack</p>
+        </div>
+      </div>
+      <div class="edu-item">
+        <span class="edu-year">Secondary</span>
+        <div>
+          <p class="edu-degree">Secondary Education</p>
+          <p class="edu-school">Saraswati Sishu Vidya Mandir, Nayabazar, Cuttack</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:56px">
+      <p class="section-label">Certifications</p>
+      <div class="cert-list">
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div><p class="cert-name">Google Data Analytics Professional Certificate</p><p class="cert-org">Coursera</p></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div><p class="cert-name">Data Science &amp; Analytics</p><p class="cert-org">HP LIFE</p></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div><p class="cert-name">Foundation Google UX Design Specialization</p><p class="cert-org">Coursera</p></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div><p class="cert-name">EF SET English Certificate — C2 Proficient</p><p class="cert-org">EF Standard English Test</p></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div><p class="cert-name">Infosys Springboard Virtual Internship 6.0 (B3)</p><p class="cert-org">Infosys</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-block" id="contact">
+  <div class="inner">
+    <h2>Let's work together</h2>
+    <p>Open to internships, junior roles, and collaborative projects in software development and data science. Always happy to connect!</p>
+    <div class="social-row">
+      <a href="https://www.linkedin.com/in/arpita-mishra-415861253/" target="_blank" class="social-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/Arps09" target="_blank" class="social-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        GitHub
+      </a>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="cf-row">
+        <div class="cf-field">
+          <label class="cf-label" for="cf-name">Name</label>
+          <input class="cf-input" type="text" id="cf-name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="cf-field">
+          <label class="cf-label" for="cf-email">Email</label>
+          <input class="cf-input" type="email" id="cf-email" name="email" placeholder="your@email.com" required>
+        </div>
+      </div>
+      <div class="cf-field">
+        <label class="cf-label" for="cf-msg">Message</label>
+        <textarea class="cf-input cf-textarea" id="cf-msg" name="message" placeholder="Tell me about the opportunity or project…" required></textarea>
+      </div>
+      <button class="cf-submit" type="submit">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        Send Message
+      </button>
+      <p class="cf-success" id="cfSuccess">✓ Message sent — I'll get back to you soon!</p>
+    </form>
+
+    <div class="contact-links">
+      <a href="mailto:mishraarpita117@gmail.com" class="btn btn-light">✉ mishraarpita117@gmail.com</a>
+    </div>
+
+    <!-- SHARE BUTTON -->
+    <div class="share-wrap" id="shareWrap">
+      <button class="share-trigger" id="shareTrigger" aria-label="Share this portfolio">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        Share Portfolio
+      </button>
+      <div class="share-icons" id="shareIcons" aria-hidden="true">
+        <button class="share-icon-btn" data-share="twitter" title="Share on Twitter/X">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622 5.91-5.622Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </button>
+        <button class="share-icon-btn" data-share="linkedin" title="Share on LinkedIn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </button>
+        <button class="share-icon-btn" data-share="whatsapp" title="Share on WhatsApp">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        </button>
+        <button class="share-icon-btn" data-share="copy" title="Copy link" id="copyLinkBtn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        </button>
+      </div>
+      <span class="share-toast" id="shareToast">Link copied!</span>
+    </div>
+
+  </div>
+</section>
+
+<footer>Designed &amp; built with care · Arpita Mishra · Cuttack, Odisha · 2026</footer>
+
+</div><!-- end page-wrap -->
+
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
